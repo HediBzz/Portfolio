@@ -606,3 +606,7 @@ img#cv {
   margin-left: 2%;
   margin-right: 2%;
 }
+
+.competence-block p {
+  color: white;
+}
