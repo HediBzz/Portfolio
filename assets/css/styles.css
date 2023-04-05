@@ -418,6 +418,17 @@ img#cv {
   padding: 2rem 0;
 }
 
+.footerc {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--second-color);
+  color: #fff;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: 2rem 0;
+}
+
 .footer__title {
   font-size: 2rem;
   margin-bottom: var(--mb-4);
@@ -594,7 +605,7 @@ img#cv {
   flex-direction: column;
   align-items: center;
   padding: 4rem 0 5rem;
-  margin-top: 5%;
+  margin-top: 10%;
   margin-bottom: 2%;
 }
 
