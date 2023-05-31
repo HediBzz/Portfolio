@@ -595,7 +595,7 @@ img#cv {
   }
 }
 
-.competence-block {
+/* .competence-block {
   background-color: var(--first-color);
   border-radius: 0.5rem;
   justify-self: center;
@@ -620,4 +620,4 @@ img#cv {
 
 .competence-block p {
   color: white;
-}
+} */

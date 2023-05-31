@@ -1,0 +1,5 @@
+# Ignorer les fichiers commençant par "comp" dans le dossier "asset/img"
+asset/img/comp*
+
+# Ignorer tous les fichiers du dossier "pages"
+pages/
