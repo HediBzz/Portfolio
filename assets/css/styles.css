@@ -595,29 +595,44 @@ img#cv {
   }
 }
 
-/* .competence-block {
+.competence-block {
   background-color: var(--first-color);
   border-radius: 0.5rem;
-  justify-self: center;
   max-width: 80%;
-  margin-left: 10%;
+  margin: 10% auto 2%;
+  /* Centrage automatique */
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4rem 0 5rem;
-  margin-top: 10%;
-  margin-bottom: 2%;
+  padding: 4rem 2rem 5rem;
+  /* Ajustement du padding pour une meilleure ergonomie */
 }
 
-.competence-block>* {
-  margin-bottom: 1%;
+.competence-block h1,
+.competence-block h2 {
+  color: white;
+  /* Assurer une bonne visibilité des titres */
 }
 
-.competence-block p {
-  margin-left: 2%;
-  margin-right: 2%;
+.competence-block h1 {
+  font-size: 2rem;
+  /* Ajustement de la taille de la police pour les titres principaux */
+  margin-bottom: 1rem;
+}
+
+.competence-block h2 {
+  font-size: 1.5rem;
+  /* Ajustement de la taille de la police pour les sous-titres */
+  margin-bottom: 1.5rem;
 }
 
 .competence-block p {
   color: white;
-} */
+  /* Maintien de la couleur blanche pour le texte */
+  line-height: 1.6;
+  /* Amélioration de la lisibilité du texte */
+  text-align: center;
+  /* Centrage du texte pour une meilleure présentation */
+  margin: 0 2rem;
+  /* Ajustement des marges gauche et droite pour un espacement uniforme */
+}
